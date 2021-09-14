@@ -18,8 +18,8 @@
     <header class="page-header" role="banner">
       <h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1>
       <h2 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h2>
-      {% if page.title != "👋 Hey there!" %}
-      <a href="/" style="color:white;"><h2 class="project-tagline">Home</h2></a>
+      {% if page.url != "/" %}
+      <a href="/" style="color:white;"><h2 class="project-tagline">← Home</h2></a>
       {% endif %}
     </header>
 
