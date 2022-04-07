@@ -27,7 +27,11 @@
       {{ content }}
 
       <footer class="site-footer">
+        {% if page.url != "/" %}
+        <span class="site-footer-credits">Breathe.</span>
+        {% else %}
         <span class="site-footer-credits">Return to the breath.</span>
+        {% endif %}
       </footer>
     </main>
   </body>

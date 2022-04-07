@@ -2,10 +2,8 @@
 
 Thanks for stopping by!
 
-Not much has changed yet; this site is still very much **In Development™️**
+If you're curious what the world looks like from my perspective, check out <a href="/thebook">The Book</a>.
 
-At the risk of jinxing myself, I figured it was finally time to start sharing a few of my thoughts.
+If you want to know what it means (to me) to be a programmer, check out <a href="/theprogrammer">The Programmer</a>.
 
-Check out <a href="/bookshelf">The Bookshelf</a> in the meantime, if you're curious.
-
-Stay tuned!
+And if you'd like to know what books and things have had a particularly profound impact on my life, check out <a href="/thebookshelf">The Bookshelf</a>.
