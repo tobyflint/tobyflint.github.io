@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8">
 
-{% seo %}
+    {% seo %}
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" as="style" type="text/css" crossorigin>
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -28,9 +28,9 @@
 
       <footer class="site-footer">
         {% if page.url != "/" %}
-        <span class="site-footer-credits">Breathe.</span>
+        <a href="/"><span class="site-footer-credits">Return to the breath.</span></a>
         {% else %}
-        <span class="site-footer-credits">Return to the breath.</span>
+        <span class="site-footer-credits">Breathe.</span>
         {% endif %}
       </footer>
     </main>
